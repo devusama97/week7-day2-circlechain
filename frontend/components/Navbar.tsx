@@ -46,7 +46,7 @@ export default function Navbar() {
 
     return (
         <AppBar position="static" color="inherit" elevation={0} sx={{ py: 2, bgcolor: 'transparent', background: 'transparent', boxShadow: 'none', minHeight: 'auto' }}>
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Toolbar disableGutters sx={{ minHeight: 'auto !important' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
                         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', marginRight: '32px' }}>

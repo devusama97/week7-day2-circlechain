@@ -11,7 +11,7 @@ import Image from 'next/image';
 export default function Footer() {
     return (
         <Box sx={{ pt: { xs: 5, md: 5 }, pb: { xs: 5, md: 5 } }}>
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Grid container spacing={{ xs: 4, md: 8 }}>
                     <Grid size={{ xs: 12, md: 5 }}>
                         <Typography variant="h5" sx={{ fontWeight: 800, mb: 3, display: 'flex', alignItems: 'center', fontSize: { xs: '1rem', md: '1.5rem' }, justifyContent: { xs: 'center', md: 'flex-start' } }}>

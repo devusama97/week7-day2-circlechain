@@ -34,7 +34,7 @@ const trends = [
 export default function MarketTrend() {
     return (
         <Box sx={{ pt: { xs: 10, md: 10 }, pb: { xs: 0, md: 10 } }}>
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Typography variant="h4" sx={{ fontWeight: 800, mb: 6 }}>
                     Market Trend
                 </Typography>

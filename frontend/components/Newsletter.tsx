@@ -43,7 +43,7 @@ export default function Newsletter() {
                 borderRadius: '50%',
                 filter: 'blur(60px)'
             }} />
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Box sx={{
                     bgcolor: 'rgba(1, 0, 16, 0.8)',
                     borderRadius: 4,

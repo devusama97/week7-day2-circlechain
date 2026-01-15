@@ -26,7 +26,7 @@ export default function Hero() {
                 borderRadius: '50%',
                 filter: 'blur(60px)'
             }} />
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Grid container spacing={4} alignItems="center">
                     <Grid size={{ xs: 12, md: 6 }}>
                         <Box sx={{ textAlign: { xs: 'center', md: 'left' } }}>

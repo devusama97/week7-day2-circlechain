@@ -22,7 +22,7 @@ export default function Features() {
                 borderRadius: '50%',
                 filter: 'blur(60px)'
             }} />
-            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
+            <Container maxWidth={false} sx={{ width: { xs: '100%', md: '100%', lg: '1321px' }, mx: 'auto', px: { xs: 2, md: 3 } }}>
                 <Typography variant="h3" align="center" sx={{ maxWidth: '1000px', mx: 'auto', fontWeight: 800, mb: 2, fontSize: { xs: '1rem', md: '3rem' } }}>
                     Global Decentralize currency based on blockchain technology
                 </Typography>
