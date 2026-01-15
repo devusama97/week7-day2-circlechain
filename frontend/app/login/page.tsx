@@ -2,12 +2,12 @@
 
 import { Box, Typography, Button, Container, Card, CardContent, TextField, Divider, Alert } from '@mui/material';
 import GoogleIcon from '@mui/icons-material/Google';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useLoginMutation } from '../../services/api';
 
-export default function LoginPage() {
+function LoginContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const [email, setEmail] = useState('');
@@ -141,5 +141,13 @@ export default function LoginPage() {
                 </Card>
             </Container>
         </Box>
+    );
+}
+
+export default function LoginPage() {
+    return (
+        <Suspense fallback={<Box sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Loading...</Box>}>
+            <LoginContent />
+        </Suspense>
     );
 }
