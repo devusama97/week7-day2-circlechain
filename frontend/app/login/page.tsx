@@ -22,7 +22,7 @@ function LoginContent() {
     }, [searchParams]);
 
     const handleGoogleLogin = () => {
-        window.location.href = `${process.env.NEXT_PUBLIC_API_URL || 'https://week7-day2-circlechain.onrender.com'}/api/auth/google`;
+        window.location.href = `${process.env.NEXT_PUBLIC_API_URL || 'https://week7-day2-circlechain.onrender.com'}/auth/google`;
     };
 
     const handleManualLogin = async (e: React.FormEvent) => {

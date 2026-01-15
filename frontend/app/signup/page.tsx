@@ -18,7 +18,7 @@ export default function SignupPage() {
     const [passwordError, setPasswordError] = useState('');
 
     const handleGoogleSignup = () => {
-        window.location.href = `${process.env.NEXT_PUBLIC_API_URL || 'https://week7-day2-circlechain.onrender.com'}/api/auth/google`;
+        window.location.href = `${process.env.NEXT_PUBLIC_API_URL || 'https://week7-day2-circlechain.onrender.com'}/auth/google`;
     };
 
     const handleManualSignup = async (e: React.FormEvent) => {
